@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Drive</title>
+    <link rel="stylesheet" href="../css/default.css">
+</head>
+<body>
+
+    <h1>Inloggen</h1>
+    <p>Voer hieronder uw gebruikersnaam en wachtwoord in</p>
+    <form action="../controllers/verify_login.php" method="post">
+        <label for="username">Gebruikersnaam</label>
+        <input id="username" name="username"><br>
+        <label for="password">Wachtwoord &nbsp;</label>
+        <input type="password" id="password" name="password"><br>
+        <br>
+        <input type="submit" name="submit" value="Inloggen">
+    </form>
+
+    <br>
+    <p><i>Terug naar de <a href="../index.html">homepage</a></i></p>
+</body>
+</html>
